@@ -18,9 +18,9 @@ if(DBManager::$debug)
 
 $apiResponse = new Response();
 
-$description = $_POST[Constant::$desc];
+$description = $_REQUEST[Constant::$desc];
 
-$target_dir = "";
+$target_dir = "../images/";
 $target_file = $target_dir . basename($_FILES[Constant::$upload_param]["name"]);
 $uploadOk = 1;
 $imageFileType = pathinfo($target_file,PATHINFO_EXTENSION);

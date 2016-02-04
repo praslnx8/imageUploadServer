@@ -16,10 +16,7 @@ class DBManager
     static $mysql_duser = "root";
     static $mysql_dpassword = "prasi123";
 
-    static $mysql_uhost = "mysql8.000webhost.com";
-    static $mysql_udatabase = "a2706933_locad";
-    static $mysql_uuser = "a2706933_locad";
-    static $mysql_upassword = "prasi123";
+
 
     static $mysql_user_table = "USERS";
     static $mysql_offer_table = "OFFERS";
